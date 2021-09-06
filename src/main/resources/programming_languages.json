@@ -1,0 +1,28 @@
+{
+  "languages": [
+    {
+      "language": {
+        "name": "Scala",
+        "createdBy": "Martin Odersky",
+        "firstAppeared": 2004,
+        "description": "Strong statically typed general-purpose programming language which supports both object-oriented programming and functional programming."
+      }
+    },
+    {
+      "language": {
+        "name": "Java",
+        "createdBy": "James Gosling",
+        "firstAppeared": 1995,
+        "description": "High-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible."
+      }
+    },
+    {
+      "language":{
+        "name": "Clojure",
+        "createdBy": "Rich Hickey",
+        "firstAppeared": 2007,
+        "description": "Dynamic and functional dialect of the Lisp programming language on the Java platform."
+      }
+    }
+  ]
+}
