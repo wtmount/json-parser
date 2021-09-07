@@ -4,5 +4,6 @@
 .idea
 out
 target
-project
+project/project/
+project/target/
 .bsp
