@@ -18,6 +18,7 @@ object JsonParser extends App {
   db.load(Source.fromResource(DbConfFilename).bufferedReader())
   var conn: Connection = _
   try {
+    Class.forName("com.mysql.cj.jdbc.Driver")
     conn = DriverManager.getConnection(db.getProperty("url"), db.getProperty("user"), db.getProperty("password"))
     createTable(conn)
     parseJson(JsonFilename).foreach(insertData(conn, _))
